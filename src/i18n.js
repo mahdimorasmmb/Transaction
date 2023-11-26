@@ -22,6 +22,8 @@ export default i18next.use(initReactI18next).init({
         title_message: "title must be at least 2 characters.",
         there_is_no_transaction: "There is no transaction",
         incom_or_xpense: "Incom Or Expense",
+        transaction_successfully:
+          "The desired transaction was registered successfully",
       },
     },
     fa: {
@@ -40,6 +42,7 @@ export default i18next.use(initReactI18next).init({
         title_message: "عنوان باید حداقل 2 کاراکتر باشد",
         there_is_no_transaction: "تراکنشی وجود ندارد",
         incom_or_xpense: "درآمد یا هزینه",
+        transaction_successfully: "تراکنش مورد نظر با موفقیت ثبت شد",
       },
     },
   },
