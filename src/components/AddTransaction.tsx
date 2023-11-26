@@ -39,7 +39,6 @@ export function InputForm() {
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
     defaultValues: {
-      amount: 0,
       title: "",
       type: "income",
     },

@@ -44,7 +44,7 @@ const Card: FC<TCard> = ({ amount, title, id, type }) => {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       ref={ref}
-      className={cn("relative !rounded-sm  ", color[i18n.language])}
+      className={cn("relative !rounded-sm w-10/12 md:w-full  ", color[i18n.language])}
       variant={"ghost"}
       asChild
     >
@@ -97,7 +97,7 @@ const TransactionList = () => {
     <div className="flex flex-col">
       <h2>{t("history")}</h2>
       <Separator className="my-2 bg-black" />
-      <div className="flex flex-col gap-3">
+      <div className="flex flex-col gap-3 ">
         {transitions.length === 0 ? (
           <p>{t("there_is_no_transaction")}</p>
         ) : (
